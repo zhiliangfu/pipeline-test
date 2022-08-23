@@ -1,0 +1,22 @@
+载入需要的名字空间：fst
+==========data normalize finished!!=============
+==========PCA finished!!=============
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+-- replacing outliers and refitting for 118 genes
+-- DESeq argument 'minReplicatesForReplace' = 7 
+-- original counts are preserved in counts(dds)
+estimating dispersions
+fitting model and testing
+-- note: fitType='parametric', but the dispersion trend was not well captured by the
+   function: y = a/x + b, and a local regression fit was automatically substituted.
+   specify fitType='local' or 'mean' to avoid this message next time.
+==========DEG finished!!=============
+Warning messages:
+1: In DESeqDataSet(se, design = design, ignoreRank) :
+  some variables in design formula are characters, converting to factors
+2: ggrepel: 6 unlabeled data points (too many overlaps). Consider increasing max.overlaps 

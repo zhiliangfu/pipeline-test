@@ -1,0 +1,25 @@
+matrix=/Users/ling/Desktop/pipeline_test/test/datasets/count.csv
+length=/Users/ling/Desktop/pipeline_test/test/datasets/gene_length.csv
+meta=/Users/ling/Desktop/pipeline_test/test/datasets/meta.csv
+
+threads=5
+
+# normalize parameter
+normalized_method=TPM
+
+# pca parameter
+pca_color=Group
+pca_shape=Group
+
+# deg parameter
+con=NC
+treat=Treat
+# batch=  # 默认为NULL
+
+out=/Users/ling/Desktop/pipeline_test/test/results
+
+
+# r script
+data_normalize_r=/Users/ling/Desktop/pipeline_test/1.count_normalize/data_normalize_20220819.R
+pca_r=/Users/ling/Desktop/pipeline_test/2.pca/pca_20220819.R
+deg_r=/Users/ling/Desktop/pipeline_test/3.deg/deg_20220819.R
